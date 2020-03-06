@@ -5,7 +5,7 @@ from django.contrib import auth as django_auth
 import base64, time
 import hashlib
 from django.http import HttpResponse
-# from Crypto.Cipher import AES    # 请安装 Crypto
+from Crypto.Cipher import AES
 import json
 
 
